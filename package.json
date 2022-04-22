@@ -1,0 +1,43 @@
+{
+  "name": "exercise-patients",
+  "version": "1.0.0",
+  "description": "Crea un index.js y declara una variable que almacene este array:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marianlopig/202204-W3EXPatients-marian-lopez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marianlopig/202204-W3EXPatients-marian-lopez/issues"
+  },
+  "homepage": "https://github.com/Marianlopig/202204-W3EXPatients-marian-lopez#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^7.0.0",
+    "jest": "^27.5.1"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
